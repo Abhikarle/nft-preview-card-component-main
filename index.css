@@ -24,7 +24,7 @@ body {
   background: var(--cardBg);
   width: 100%;
   max-width: 360px;
-  height: 600px;
+  height: 630px;
   overflow: hidden;
   border-radius: 16px;
   transition: transform 0.3s ease;
@@ -34,29 +34,29 @@ body {
     transform: translateY(-5px);
   }
 .image-container {
-  width: 100%;
-  height: 240px;
   overflow: hidden;
 }
 .card-container img {
-  width: 100%;
-  border-radius: 16px;
-  height: 100%;
+  width: 300px;
+  border-radius: 18px;
+  max-height: 290px;
+  margin: 1.8rem;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
 .card-container:hover .card-container img {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 .card-container h1 {
   color: var(--White);
-  font-size: 1.3rem;
-  margin: 0.4rem;
-  padding: 0.4rem;
+  font-size: 1.2rem;
+  font-weight: var(--FontWeight3);
+  margin: 1rem 2rem;
+  line-height: 1;
 }
 .card-container p {
   color: var(--Blue);
-  margin: 0.4rem;
+  margin: 1.4rem;
   padding: 0.4rem;
 }
 .card-footer {
@@ -65,13 +65,34 @@ body {
   margin: 0.6rem;
 }
 .price-value {
-  color: var(--Cyan)
+  color: var(--Cyan);
+  margin: 1.3rem;
 }
 .time-frame {
   color: var(--Blue);
+  margin: 0.3rem;
 }
 .card-details hr {
   color: var(--cardBg);
   margin: 0.5rem;
-  padding: 0.5rem;
+}
+.profile-section {
+  display: flex;
+  flex-direction: row;
+}
+.profile-section img {
+  width: 100%;
+  max-width: 50px;
+  max-height: 50px;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 1.2rem;
+}
+.profile-content {
+  margin-left: 0;
+}
+.profile-content .profile-name {
+  color: var(--White);
+
 }
