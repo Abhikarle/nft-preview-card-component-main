@@ -63,7 +63,7 @@ h1:hover {
 }
 .description {
   color:var(--Blue);
-  line-height:1.7;
+  line-height:1.2;
   font-size:18px;
   font-weight:300;
 }
